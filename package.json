@@ -1,9 +1,15 @@
 {
   "name": "postman-sandbox",
-  "version": "6.1.2",
+  "version": "5.2.3-lineaje-01",
   "description": "Sandbox for Postman Scripts to run in Node.js or browser",
   "author": "Postman Inc.",
   "license": "Apache-2.0",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "main": "index.js",
   "browser": {
     "./lib/bundle/index.js": "./lib/bundle/index.browser.js",
@@ -16,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/postmanlabs/postman-sandbox.git"
+    "url": "https://github.com/lineaje-labs-gos/postmanlabs-postman-sandbox"
   },
   "keywords": [
     "contextify",
